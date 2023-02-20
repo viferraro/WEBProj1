@@ -1,8 +1,97 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@700&display=swap');
+}
+
 body {
     background-color: black;
     color: #F6F6F6;
+    /* height: 100vh; */
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .titulo {
     color: #22D4FD;
+}
+
+.apresentacao {
+    margin: 3%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 3%;
+    display: block;
+}
+
+.aps__conteudo {
+    width: 615px;
+    flex-direction: column;
+}
+
+.aps__ctd__titulo {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aps__ctd__subtitulo {
+    margin-bottom: 5%;
+    font-size: 28px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: #22D4FD;
+    width: 280px;
+    border-radius: 16px;
+    font-size: 24px;
+    text-align: center;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link:hover {
+    background-color: aqua;
+}
+
+.linkAtivo {
+    background-color: aqua;
+    width: 280px;
+    border-radius: 16px;
+    font-size: 24px;
+    text-align: center;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.rodape {
+    background-color: #22D4FD;
+    padding: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
 }
